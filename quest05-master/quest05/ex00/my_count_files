@@ -1,0 +1,7 @@
+find $PWD \( -type f -or -type d \) -name ".*" -prune -o -print | wc -l 
+
+
+
+//Material sourced from https://www.man7.org/linux/man-pages/man1/ls.1.html or (find . | wc -l)- as an alternative
+//Material sourced from https://linux.die.net/man/1/wc
+//Material sourced from https://stackoverflow.com/questions/39237094/find-the-number-of-regular-files-and-directories-in-current-directory-and-sub-di

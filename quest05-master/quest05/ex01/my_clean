@@ -1,0 +1,9 @@
+find . -name "*~" -print -delete -or -name "#*#" -print -delete
+
+
+
+
+//Material sourced from https://www.man7.org/linux/man-pages/man1/find.1.html- another alternate wld be find . \( -name '*~' -or -name '#*#' \) -print -delete
+//Material sourced from https://www.man7.org/linux/man-pages/man1/find.1.html
+//Material sourced from https://www.freecodecamp.org/news/the-linux-ls-command-how-to-list-files-in-a-directory-with-options/
+//Material sourced from https://linuxize.com/post/how-to-list-files-in-linux-using-the-ls-command/#:~:text=ls%20is%20one%20of%20the%20basic%20commands%20that,package%20which%20is%20installed%20on%20all%20Linux%20distributions.
